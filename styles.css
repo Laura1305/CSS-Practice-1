@@ -31,16 +31,21 @@ body {
 .container {
     background: rgb(54, 219, 231);
     width: 100%;
-    min-height: 500px;
-    padding: 20px;
+    min-height: 978px;
     display: flex;
     justify-content: center;
 
 }
 
+.containerBackground{
+    position:relative;
+    /* z-index: -1; */
+}
+
 .innerBackground {
     height: 40%;
-    background-color: yellow;
+    /* position: relative;
+   z-index: 1; */
 }
 
 .innerContainer {
@@ -55,7 +60,8 @@ body {
     flex-direction: column;
     overflow: hidden;
     border-radius: 5%;
-    position: relative;
+    position: absolute;
+    z-index: 1;
 
 
 }
@@ -73,8 +79,8 @@ body {
     width: 30%;
     height: 100px;
     /* display: flex;
-    object-fit:contain;
-    position:absolute; */
+    object-fit:contain;*/
+    position:absolute; 
     border-radius: 50%;
     border: 5px solid white;
     align-self: center;
@@ -84,7 +90,7 @@ body {
     height: 40%;
     background-color: white;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     display: flex;
     /* align-items: end; */
     flex-direction: column;
