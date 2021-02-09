@@ -20,16 +20,21 @@ body {
     color: gray;
 }
 
-
+.background {
+    background: linear-gradient(linearGradient x1="50%" y1=".779%" x2="50%" y2="100%");
+    stop-color:#0989B4, top-opacity=0, offset=0;
+    stop-color:#53FFEE, offset=99.94%;
+   background: ellipse(fill=url(.background), transform="rotate(-135 489 489)" cx="489" cy="489" rx="489" ry="488", fill-rule="evenodd", opacity=".5");
+    
+}
 
 .container{
-    background: rgb(54, 219, 231);
+    background: mediumaquamarine;
     width:100%;
     min-height: 500px;
     padding: 20px;
     display: flex;
-    justify-content:center;
-   
+    justify-content:center; 
 }
 
 .innerContainer{
