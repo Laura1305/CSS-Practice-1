@@ -1,121 +1,133 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Mega&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend+Mega&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap");
 
 body {
-    font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
-
-
 
 .boldedText {
-    font-size: 18px;
-    font-weight: 700;
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.age{
-    color: gray;
-    padding-left: 0.5em;
+.age {
+  color: gray;
+  padding-left: 0.5em;
 }
 
 .grayText {
+  color: gray;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+}
+
+.grayText2 {
     color: gray;
     font-weight: 400;
     font-size: 13px;
-}
+  }
 
-.city{
-    font-size: 15px;
-    padding-top: 1em;
+.city {
+  font-size: 15px;
+  padding-top: 1em;
 }
-
 
 .container {
-    background: rgb(54, 219, 231);
-    width: 100%;
-    min-height: 978px;
-    display: flex;
-    justify-content: center;
+  background: rgb(54, 219, 231);
+  width: 100%;
+  min-height: 978px;
+  display: flex;
+  justify-content: center;
 
+  
 }
 
-.containerBackground{
-    position:relative;
-    /* z-index: -1; */
+.containerBackground {
+  position: relative;
+  /* z-index: -1; */
 }
 
 .innerBackground {
-    height: 40%;
-    /* position: relative;
+  height: 40%;
+  /* position: relative;
    z-index: 1; */
 }
 
 .innerContainer {
-
-    /* <svg width="350" height="140" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="c"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient><linearGradient x1="50%" y1=".779%" x2="50%" y2="100%" id="d"><stop stop-color="#0989B4" stop-opacity="0" offset="0%"/><stop stop-color="#53FFEE" offset="99.94%"/></linearGradient><path id="a" d="M0 0h350v140H0z"/></defs><g fill="none" fill-rule="evenodd"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#41CBD3" xlink:href="#a"/><g mask="url(#b)" opacity=".5"><g transform="translate(-11 -4)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(-11 91.63)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(-11 43.815)"><ellipse fill="url(#c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 18.77)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 114.4)"><ellipse fill="url(#c)" transform="rotate(90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 14.834 14.8)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" transform="rotate(180 197.411 14.8)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(-90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g><g transform="translate(11.822 66.585)"><ellipse fill="url(#c)" transform="rotate(-90 60.479 14.8)" cx="60.479" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="14.834" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="151.767" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 106.123 14.8)" cx="106.123" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#c)" transform="rotate(-90 243.055 14.8)" cx="243.055" cy="14.8" rx="14.8" ry="14.834"/><ellipse fill="url(#d)" cx="197.411" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#d)" cx="334.344" cy="14.8" rx="14.834" ry="14.8"/><ellipse fill="url(#c)" transform="rotate(90 288.7 14.8)" cx="288.699" cy="14.8" rx="14.8" ry="14.834"/></g></g></g></svg> */
-    display: flex;
-    background: white;
-    width: 18%;
-    height: 300px;
-    align-self: center;
-    justify-content: center;
-    flex-direction: column;
-    overflow: hidden;
-    border-radius: 5%;
-    position: absolute;
-    z-index: 1;
-
-
+  
+  display: flex;
+  background: white;
+  width: 350px;
+  height: 358px;
+  align-self: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 5%;
+  position: absolute;
+  z-index: 1;
+  display: flex;
 }
 
-.innerContainerBackgroundImage {
-    position: absolute;
-    top: 50px;
-}
+/* .innerContainerBackgroundImage {
+  position: absolute;
+  top: 50px;
+} */
 
 .profilePicture {
-    
+  background: url(images/victor.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  /* background-origin: border-box; */
+  width: 25%;
+  height: 25%;
+  display: flex;
+  position: absolute;
+  top: 25%;
+  border-radius: 50%;
+  border: 5px solid white;
+  align-self: center;
+  
+}
 
-    background: url(images/victor.jpg);
-    /* background-color: royalblue; */
-    width: 30%;
-    height: 100px;
-    /* display: flex;
-    object-fit:contain;*/
-    position:absolute; 
-    border-radius: 50%;
-    border: 5px solid white;
-    align-self: center;
+.infoContainer {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  height: 40%;
+
+ 
 }
 
 .profileInfo {
-    height: 40%;
-    background-color: white;
-    text-align: center;
-    /* position: relative; */
-    display: flex;
-    /* align-items: end; */
-    flex-direction: column;
-    
+  height: 40%;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 2%;
+  /* line-height:11; */
+  display: flex;
+  /* align-items: end; */
+  flex-direction: column;
+  align-self: flex-end;
 }
 
 .profileStats {
-    height: 20%;
-    background-color: yellow;
-    display: flex;
-    justify-content: center;
-    /* align-content: space-between; */
-    text-align: center;
-
-
+  height: 20%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  /* align-content: space-between; */
+  text-align: center;
+  align-items: center;
+  border-top: 1px solid rgb(211, 211, 211);
 }
 
 .member {
-    padding: 5px;
-    flex: 1
+  padding: 5px;
+  flex: 1;
 }
-
 
 hr {
-    height: 1px;
-    background-color: black;
+  height: 1px;
+  background-color: black;
 }
-
