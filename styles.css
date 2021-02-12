@@ -22,10 +22,10 @@ body {
 }
 
 .grayText2 {
-    color: gray;
-    font-weight: 400;
-    font-size: 13px;
-  }
+  color: gray;
+  font-weight: 400;
+  font-size: 13px;
+}
 
 .city {
   font-size: 15px;
@@ -34,27 +34,22 @@ body {
 
 .container {
   background: rgb(54, 219, 231);
+  background-size: contain;
   width: 100%;
   min-height: 978px;
   display: flex;
   justify-content: center;
-
-  
 }
 
 .containerBackground {
   position: relative;
-  /* z-index: -1; */
 }
 
 .innerBackground {
   height: 40%;
-  /* position: relative;
-   z-index: 1; */
 }
 
 .innerContainer {
-  
   display: flex;
   background: white;
   width: 350px;
@@ -69,16 +64,10 @@ body {
   display: flex;
 }
 
-/* .innerContainerBackgroundImage {
-  position: absolute;
-  top: 50px;
-} */
-
 .profilePicture {
   background: url(images/victor.jpg);
   background-repeat: no-repeat;
   background-position: center top;
-  /* background-origin: border-box; */
   width: 25%;
   height: 25%;
   display: flex;
@@ -87,7 +76,6 @@ body {
   border-radius: 50%;
   border: 5px solid white;
   align-self: center;
-  
 }
 
 .infoContainer {
@@ -95,8 +83,6 @@ body {
   justify-content: center;
   background-color: white;
   height: 40%;
-
- 
 }
 
 .profileInfo {
@@ -116,7 +102,7 @@ body {
   background-color: white;
   display: flex;
   justify-content: center;
-  /* align-content: space-between; */
+
   text-align: center;
   align-items: center;
   border-top: 1px solid rgb(211, 211, 211);
@@ -125,9 +111,4 @@ body {
 .member {
   padding: 5px;
   flex: 1;
-}
-
-hr {
-  height: 1px;
-  background-color: black;
 }
